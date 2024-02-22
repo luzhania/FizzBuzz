@@ -7,8 +7,11 @@ describe("Fizzbuzz", () => {
   it("should generate the same number for another number that doesn't have rules, like the 2", () => {
     expect(generateFizzBuzz(2)).toEqual("2");
   });
-  it("should generate Fizz for another number that is multiple, like the 3", () => {
+  it("should generate Fizz for another number that is multiple of 3, like the 3", () => {
     expect(generateFizzBuzz(3)).toEqual("Fizz");
+  });
+  it("should generate Fizz for another number that is multiple of 3, like the 6", () => {
+    expect(generateFizzBuzz(6)).toEqual("Fizz");
   });
 });
 
