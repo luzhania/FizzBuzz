@@ -15,5 +15,4 @@ function generateFizzBuzz(n) {
     }
 
 }
-
 export default generateFizzBuzz;
