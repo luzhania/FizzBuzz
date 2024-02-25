@@ -32,6 +32,9 @@ describe("Fizzbuzz", () => {
   it("should generate the sequence of numbers up to the limit, like 10", ()=> {
     expect(sequenceFizzBuzz(10)).toEqual("1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz")
   });
+  it("should generate the sequence of numbers up to the limit, like 15", ()=> {
+    expect(sequenceFizzBuzz(15)).toEqual("1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz")
+  });
 });
 
 
