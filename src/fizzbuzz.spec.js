@@ -1,3 +1,4 @@
+import sequenceFizzBuzz from "./sequenceFizzbuzz.js";
 import generateFizzBuzz from "./fizzbuzz.js";
 
 describe("Fizzbuzz", () => {
@@ -24,6 +25,9 @@ describe("Fizzbuzz", () => {
   });
   it("should generate FizzBuzz for a number that is multiply of 3 and 5, like the 30", () => {
     expect(generateFizzBuzz(30)).toEqual("FizzBuzz");
+  });
+  it("should generate the sequence of numbers up to the limit, like 1", ()=> {
+    expect(sequenceFizzBuzz(1)).toEqual("1")
   });
 });
 
